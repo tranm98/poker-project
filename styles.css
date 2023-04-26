@@ -1,0 +1,12 @@
+.highlighted {
+    background-color: yellow;
+}
+
+table{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+td{
+    padding: 5px;
+}

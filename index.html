@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="apps.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Poker Hand</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="hand-1" onclick="toggleHighlight('hand-1')">AA</td>
+            <td id="hand-2" onclick="toggleHighlight('hand-2')">AKs</td>
+            <td id="hand-3" onclick="toggleHighlight('hand-3')">AQs</td>
+            <td id="hand-4" onclick="toggleHighlight('hand-4')" >AJs</td>
+            <td id="hand-5" onclick="toggleHighlight('hand-5')">ATs</td>
+            <td id="hand-6" onclick="toggleHighlight('hand-6')">A9s</td>
+            <td id="hand-7" onclick="toggleHighlight('hand-7')">A8s</td>
+            <td id="hand-8" onclick="toggleHighlight('hand-8')">A7s</td>
+            <td id="hand-9" onclick="toggleHighlight('hand-9')">A6s</td>
+            <td id="hand-10" onclick="toggleHighlight('hand-10')">A5s</td>
+            <td id="hand-11" onclick="toggleHighlight('hand-11')">A4s</td>
+            <td id="hand-12" onclick="toggleHighlight('hand-12')">A3s</td>
+            <td id="hand-13" onclick="toggleHighlight('hand-13')">A2s</td>
+        </tr>
+        <tr>
+            <td id="hand-14" onclick="toggleHighlight('hand-14')">AKo</td>
+            <td id="hand-15" onclick="toggleHighlight('hand-15')">KK</td>
+            <td id="hand-16" onclick="toggleHighlight('hand-16')">KQs</td>
+            <td id="hand-17" onclick="toggleHighlight('hand-17')">KJs</td>
+            <td id="hand-18" onclick="toggleHighlight('hand-18')">KTs</td>
+            <td id="hand-19" onclick="toggleHighlight('hand-19')">K9s</td>
+            <td id="hand-20" onclick="toggleHighlight('hand-20')">K8s</td>
+            <td id="hand-21" onclick="toggleHighlight('hand-21')">K7s</td>
+            <td id="hand-22" onclick="toggleHighlight('hand-22')">K6s</td>
+            <td id="hand-23" onclick="toggleHighlight('hand-23')">K5s</td>
+            <td id="hand-24" onclick="toggleHighlight('hand-24')">K4s</td>
+            <td id="hand-25" onclick="toggleHighlight('hand-25')">K3s</td>
+            <td id="hand-26" onclick="toggleHighlight('hand-26')">K2s</td> 
+        </tr>
+        <tr>
+            <td id="hand-27" onclick="toggleHighlight('hand-27')">AQo</td>
+            <td id="hand-28" onclick="toggleHighlight('hand-28')">KQo</td>
+            <td id="hand-29" onclick="toggleHighlight('hand-29')">QQ</td>
+            <td id="hand-30" onclick="toggleHighlight('hand-30')">QJs</td>
+            <td id="hand-31" onclick="toggleHighlight('hand-31')">QTs</td>
+            <td id="hand-32" onclick="toggleHighlight('hand-32')">Q9s</td>
+            <td id="hand-33" onclick="toggleHighlight('hand-33')">Q8s</td>
+            <td id="hand-34" onclick="toggleHighlight('hand-34')">Q7s</td>
+            <td id="hand-35" onclick="toggleHighlight('hand-35')">Q6s</td>
+            <td id="hand-36" onclick="toggleHighlight('hand-36')">Q5s</td>
+            <td id="hand-37" onclick="toggleHighlight('hand-37')">Q4s</td>
+            <td id="hand-38" onclick="toggleHighlight('hand-38')">Q3s</td>
+            <td id="hand-39" onclick="toggleHighlight('hand-39')">Q2s</td> 
+        </tr>
+        <tr>
+            <td id="hand-40" onclick="toggleHighlight('hand-40')">AJo</td>
+            <td id="hand-41" onclick="toggleHighlight('hand-41')">KJo</td>
+            <td id="hand-42" onclick="toggleHighlight('hand-42')">QJo</td>
+            <td id="hand-43" onclick="toggleHighlight('hand-43')">JJ</td>
+            <td id="hand-44" onclick="toggleHighlight('hand-44')">JTs</td>
+            <td id="hand-45" onclick="toggleHighlight('hand-45')">J9s</td>
+            <td id="hand-46" onclick="toggleHighlight('hand-46')">J8s</td>
+            <td id="hand-47" onclick="toggleHighlight('hand-47')">J7s</td>
+            <td id="hand-48" onclick="toggleHighlight('hand-48')">J6s</td>
+            <td id="hand-49" onclick="toggleHighlight('hand-49')">J5s</td>
+            <td id="hand-50" onclick="toggleHighlight('hand-50')">J4s</td>
+            <td id="hand-51" onclick="toggleHighlight('hand-51')">J3s</td>
+            <td id="hand-52"onclick="toggleHighlight('hand-52')">J2s</td> 
+        </tr>
+        <tr>
+            <td id="hand-53" onclick="toggleHighlight('hand-53')">ATo</td>
+            <td id="hand-54" onclick="toggleHighlight('hand-54')">KTo</td>
+            <td id="hand-55" onclick="toggleHighlight('hand-55')">QTo</td>
+            <td id="hand-56" onclick="toggleHighlight('hand-56')">Jto</td>
+            <td id="hand-57" onclick="toggleHighlight('hand-57')">TT</td>
+            <td id="hand-58" onclick="toggleHighlight('hand-58')">T9s</td>
+            <td id="hand-59" onclick="toggleHighlight('hand-59')">T8s</td>
+            <td id="hand-60" onclick="toggleHighlight('hand-60')">T7s</td>
+            <td id="hand-61" onclick="toggleHighlight('hand-61')">T6s</td>
+            <td id="hand-62" onclick="toggleHighlight('hand-62')">T5s</td>
+            <td id="hand-63" onclick="toggleHighlight('hand-63')">T4s</td>
+            <td id="hand-64" onclick="toggleHighlight('hand-64')">T3s</td>
+            <td id="hand-65" onclick="toggleHighlight('hand-65')">T2s</td> 
+        </tr>
+        <tr>
+            <td id="hand-66" onclick="toggleHighlight('hand-66')">A9o</td>
+            <td id="hand-67" onclick="toggleHighlight('hand-67')">K9o</td>
+            <td id="hand-68" onclick="toggleHighlight('hand-68')">Q9o</td>
+            <td id="hand-69" onclick="toggleHighlight('hand-69')">J9o</td>
+            <td id="hand-70" onclick="toggleHighlight('hand-70')">T9o</td>
+            <td id="hand-71" onclick="toggleHighlight('hand-71')">99</td>
+            <td id="hand-72" onclick="toggleHighlight('hand-72')">98s</td>
+            <td id="hand-73" onclick="toggleHighlight('hand-73')">97s</td>
+            <td id="hand-74" onclick="toggleHighlight('hand-74')">96s</td>
+            <td id="hand-75" onclick="toggleHighlight('hand-75')">95s</td>
+            <td id="hand-76" onclick="toggleHighlight('hand-76')">94s</td>
+            <td id="hand-77" onclick="toggleHighlight('hand-77')">93s</td>
+            <td id="hand-78" onclick="toggleHighlight('hand-78')">92s</td> 
+        </tr>
+        <tr>
+            <td id="hand-79" onclick="toggleHighlight('hand-79')">A8o</td>
+            <td id="hand-80" onclick="toggleHighlight('hand-80')">K8o</td>
+            <td id="hand-81" onclick="toggleHighlight('hand-81')">Q8o</td>
+            <td id="hand-82" onclick="toggleHighlight('hand-82')">J8o</td>
+            <td id="hand-83" onclick="toggleHighlight('hand-83')">T8o</td>
+            <td id="hand-84" onclick="toggleHighlight('hand-84')">98o</td>
+            <td id="hand-85" onclick="toggleHighlight('hand-85')">88</td>
+            <td id="hand-86" onclick="toggleHighlight('hand-86')">87s</td>
+            <td id="hand-87" onclick="toggleHighlight('hand-87')">86s</td>
+            <td id="hand-88" onclick="toggleHighlight('hand-88')">85s</td>
+            <td id="hand-89" onclick="toggleHighlight('hand-89')">84s</td>
+            <td id="hand-90" onclick="toggleHighlight('hand-90')">83s</td>
+            <td id="hand-91" onclick="toggleHighlight('hand-91')">82s</td> 
+        </tr>
+        <tr>
+            <td id="hand-92" onclick="toggleHighlight('hand-92')">A7o</td>
+            <td id="hand-93" onclick="toggleHighlight('hand-93')">K7o</td>
+            <td id="hand-94" onclick="toggleHighlight('hand-94')">Q7o</td>
+            <td id="hand-95" onclick="toggleHighlight('hand-95')">J7o</td>
+            <td id="hand-96" onclick="toggleHighlight('hand-96')">T7o</td>
+            <td id="hand-97" onclick="toggleHighlight('hand-97')">97o</td>
+            <td id="hand-98" onclick="toggleHighlight('hand-98')">87o</td>
+            <td id="hand-99" onclick="toggleHighlight('hand-99')">77</td>
+            <td id="hand-100" onclick="toggleHighlight('hand-100')">76s</td>
+            <td id="hand-101" onclick="toggleHighlight('hand-101')">75s</td>
+            <td id="hand-102" onclick="toggleHighlight('hand-102')">74s</td>
+            <td id="hand-103" onclick="toggleHighlight('hand-103')">73s</td>
+            <td id="hand-104" onclick="toggleHighlight('hand-104')">72s</td> 
+        </tr>
+        <tr>
+            <td id="hand-105" onclick="toggleHighlight('hand-105')">A6o</td>
+            <td id="hand-106" onclick="toggleHighlight('hand-106')">K6o</td>
+            <td id="hand-107" onclick="toggleHighlight('hand-107')">Q6o</td>
+            <td id="hand-108" onclick="toggleHighlight('hand-108')">J6o</td>
+            <td id="hand-109" onclick="toggleHighlight('hand-109')">T60</td>
+            <td id="hand-110" onclick="toggleHighlight('hand-110')">96o</td>
+            <td id="hand-111" onclick="toggleHighlight('hand-111')">86o</td>
+            <td id="hand-112" onclick="toggleHighlight('hand-112')">76o</td>
+            <td id="hand-113" onclick="toggleHighlight('hand-113')">66</td>
+            <td id="hand-114" onclick="toggleHighlight('hand-114')">65s</td>
+            <td id="hand-115" onclick="toggleHighlight('hand-115')">64s</td>
+            <td id="hand-116" onclick="toggleHighlight('hand-116')">63s</td>
+            <td id="hand-117" onclick="toggleHighlight('hand-117')">62s</td> 
+        </tr>
+        <tr>
+            <td id="hand-118" onclick="toggleHighlight('hand-118')">A5o</td>
+            <td id="hand-119" onclick="toggleHighlight('hand-119')">K5o</td>
+            <td id="hand-120" onclick="toggleHighlight('hand-120')">Q5o</td>
+            <td id="hand-121" onclick="toggleHighlight('hand-121')">J5o</td>
+            <td id="hand-122" onclick="toggleHighlight('hand-122')">T5o</td>
+            <td id="hand-123" onclick="toggleHighlight('hand-123')">95o</td>
+            <td id="hand-124" onclick="toggleHighlight('hand-124')">85o</td>
+            <td id="hand-125" onclick="toggleHighlight('hand-125')">75o</td>
+            <td id="hand-126" onclick="toggleHighlight('hand-126')">65o</td>
+            <td id="hand-127" onclick="toggleHighlight('hand-127')">55</td>
+            <td id="hand-128" onclick="toggleHighlight('hand-128')">54s</td>
+            <td id="hand-129" onclick="toggleHighlight('hand-129')">53s</td>
+            <td id="hand-130" onclick="toggleHighlight('hand-130')">52s</td> 
+        </tr>
+        <tr>
+            <td id="hand-131" onclick="toggleHighlight('hand-131')">A4o</td>
+            <td id="hand-132" onclick="toggleHighlight('hand-132')">K4o</td>
+            <td id="hand-133" onclick="toggleHighlight('hand-133')">Q4o</td>
+            <td id="hand-134" onclick="toggleHighlight('hand-134')">J4o</td>
+            <td id="hand-135" onclick="toggleHighlight('hand-135')">T4o</td>
+            <td id="hand-136" onclick="toggleHighlight('hand-136')">940</td>
+            <td id="hand-137" onclick="toggleHighlight('hand-137')">840</td>
+            <td id="hand-138" onclick="toggleHighlight('hand-138')">74o</td>
+            <td id="hand-139" onclick="toggleHighlight('hand-139')">64o</td>
+            <td id="hand-140" onclick="toggleHighlight('hand-140')">54o</td>
+            <td id="hand-141" onclick="toggleHighlight('hand-141')">44</td>
+            <td id="hand-142" onclick="toggleHighlight('hand-142')">43s</td>
+            <td id="hand-143" onclick="toggleHighlight('hand-143')">42s</td> 
+        </tr>
+        <tr>
+            <td id="hand-144" onclick="toggleHighlight('hand-144')">A3o</td>
+            <td id="hand-145" onclick="toggleHighlight('hand-145')">K3o</td>
+            <td id="hand-146" onclick="toggleHighlight('hand-146')">Q3o</td>
+            <td id="hand-147" onclick="toggleHighlight('hand-147')">J3o</td>
+            <td id="hand-148" onclick="toggleHighlight('hand-148')">T3o</td>
+            <td id="hand-149" onclick="toggleHighlight('hand-149')">93o</td>
+            <td id="hand-150" onclick="toggleHighlight('hand-150')">83o</td>
+            <td id="hand-151" onclick="toggleHighlight('hand-151')">73o</td>
+            <td id="hand-152" onclick="toggleHighlight('hand-152')">63o</td>
+            <td id="hand-153" onclick="toggleHighlight('hand-153')">53o</td>
+            <td id="hand-154" onclick="toggleHighlight('hand-154')">43o</td>
+            <td id="hand-155" onclick="toggleHighlight('hand-155')">33</td>
+            <td id="hand-156" onclick="toggleHighlight('hand-156')">32s</td> 
+        </tr>
+        <tr>
+            <td id="hand-157" onclick="toggleHighlight('hand-157')">A2o</td>
+            <td id="hand-158" onclick="toggleHighlight('hand-158')">K2o</td>
+            <td id="hand-159" onclick="toggleHighlight('hand-159')">Q2o</td>
+            <td id="hand-160" onclick="toggleHighlight('hand-160')">J2o</td>
+            <td id="hand-161" onclick="toggleHighlight('hand-161')">T2o</td>
+            <td id="hand-162" onclick="toggleHighlight('hand-162')">92o</td>
+            <td id="hand-163" onclick="toggleHighlight('hand-163')">82o</td>
+            <td id="hand-164" onclick="toggleHighlight('hand-164')">72o</td>
+            <td id="hand-165" onclick="toggleHighlight('hand-165')">62o</td>
+            <td id="hand-166" onclick="toggleHighlight('hand-166')">52o</td>
+            <td id="hand-167" onclick="toggleHighlight('hand-167')">42o</td>
+            <td id="hand-168" onclick="toggleHighlight('hand-168')">32o</td>
+            <td id="hand-169" onclick="toggleHighlight('hand-169')">22</td> 
+        </tr>
+    </table>
+</body>
+</html>
