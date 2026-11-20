@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("PAGE LOADED");
-
     const table = document.querySelector('table');
-    console.log(table);
-
+    
     for (let i = 0; i < table.rows.length; i++) {
         const row = table.rows[i];
 
@@ -11,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const cell = row.cells[j];
 
             cell.addEventListener('click', function() {
-                console.log("CELL CLICKED:", cell.id);
                 toggleHighlight(cell.id);
                 console.log("CLASS:", cell.className);
             });
